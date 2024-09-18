@@ -1,6 +1,6 @@
 {
-  "name": "knex",
-  "version": "3.1.0",
+  "name": "knex-fork",
+  "version": "3.1.1a",
   "description": "A batteries-included SQL query & schema builder for PostgresSQL, MySQL, CockroachDB, MSSQL and SQLite3",
   "main": "knex",
   "types": "types/index.d.ts",
@@ -106,6 +106,7 @@
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
+    "@types/lodash": "^4.17.7",
     "@types/node": "^20.4.0",
     "better-sqlite3": "^9.1.1",
     "chai": "^4.3.6",
@@ -154,7 +155,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/knex/knex.git"
+    "url": "git://github.com/tluyben/knex.git"
   },
   "homepage": "https://knex.github.io/documentation/",
   "keywords": [
