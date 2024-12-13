@@ -2,6 +2,7 @@ const { resolveClientNameWithAliases } = require('../util/helpers');
 
 const dbNameToDialectLoader: Record<string, () => any> = Object.freeze({
   'better-sqlite3': () => require('./better-sqlite3'),
+  clickhouse: () => require('./clickhouse'),
   cockroachdb: () => require('./cockroachdb'),
   mssql: () => require('./mssql'),
   mysql: () => require('./mysql'),
